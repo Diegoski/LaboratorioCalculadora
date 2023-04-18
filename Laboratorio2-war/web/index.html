@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color: #1E1E1E;
+            }
+            .container {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: #0099cc;
+                font-size: 16px;
+                padding: 10px;
+                border: 1px #FFFFFF solid;
+                border-radius: 5px;
+            }
+            .cont img {
+                float: rigth;
+                width: 10%; /* Ajusta la imagen al 100% del ancho del contenedor */
+                height: auto; /* Altura automática según el ancho para evitar distorsiones */
+                display: block; /* Elimina el espacio debajo de la imagen */
+            }
+            .cont{
+                height: 25px;
+                width: 200px;
+            }
+            .cont img, .cont{
+                display: inline-block; /* Establece los elementos en línea */
+                vertical-align: middle; /* Alinea verticalmente los elementos */
+                text-align: center;
+            }
+            .container:hover{
+                cursor: pointer;
+                background-color: #0000ff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <a href="./CalcOper.jsp" style="text-decoration: none; color: #FFFFFF; "><div class="cont">CALCULADORA<img src="https://cdn.icon-icons.com/icons2/272/PNG/512/Calculator_30001.png"></div></a>
+        </div>
+    </body>
+</html>
